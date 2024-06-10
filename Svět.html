@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projekt.css">
+    <script src="projekt.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="navigacniMenu">
+
+            
+            <a href="index.html" >Nejoblíbenější hra</a>
+            <a href="Postavy.html">Postavy </a>
+            <a href="Svět.html">Svět </a>
+
+            <a href="Příběh.html">Příběh </a>
+            <a href="zrdroje.html">Zdroje </a>
+            <a href="přihlášení.html">Přihlášení </a>
+        </div>
+    </header>
+    <section>
+        <div class="main">
+            <div>
+                <div class="Mapy">
+                    <img src="world_map.jpg" id="mapImage" style="width: 100%; ;">
+                    <div class="bottom-right"><a href="#" onclick="changeImage('world_map.jpg')">Mapa Zaklínače
+                            3</a>
+                        <a style="height: 50%" href="#  " onclick="changeImage('Book_world_map.jpg')">Svět
+                            Zaklínače </a>
+                    </div>
+                </div>
+                <div>
+                    <h2 style="color: yellow;">Popis jednotlivých zemí</h2>
+                    <h3 style="color: yellow;">Severní království</h3>
+                    <div style="color: white;">
+                        <p>Temerie: Hlavní město: Vizima; Temerie je jedním z nejmocnějších a nejbohatších království
+                            Severních zemí. Je známá svými bohatými doly a silnou vojenskou silou. Král Foltest byl
+                            jejím vládcem a hlavní město Vizima je politickým a ekonomickým centrem země. </p>
+                        <p> Redanie: Hlavní město: Novigrad; (de facto), Tretogor (de jure) Redanie je další významné
+                            království na severu, známé svou inteligencí a intrikami. Král Vizimir, známý jako "Vizimir
+                            Spravedlivý", vládne z Tretogoru, ale Novigrad je největším a nejvýznamnějším městem v
+                            Redanii. Novigrad je důležité obchodní centrum a sídlo mnoha cechů a organizací.</p>
+                        <p> Aedirn: Hlavní město: Vengerberg; je bohaté království známé svými úrodnými poli a silným
+                            zemědělstvím. Hlavní město Vengerberg je také rodištěm Yennefer, jedné z hlavních postav
+                            série.</p>
+                        <p>Kaedwen: Hlavní město: Ard Carraigh; Kaedwen je největším severním královstvím, známé svým
+                            drsným podnebím a divokou přírodou. Král Henselt je jeho vládcem a hlavní město Ard Carraigh
+                            je centrem politické a vojenské moci. </p>
+                        <h3 style="color: yellow;">Jižní říše</h3>
+                        <p> Nilfgard: Hlavní město: Nilfgaard; Nilfgaard je rozsáhlá a mocná říše na jihu, vedená
+                            císařem Emhyrem var Emreisem. Je známá svou agresivní expanzí a touhou po dobývání severních
+                            království. Nilfgaard je technologicky vyspělejší a politicky centralizovanější než severní
+                            království. </p>
+                        <h3 style="color: yellow;">Skelige</h3>
+                        <p>Ard Skellig: Největší a nejdůležitější ostrov v souostroví Skellige. Je domovem hlavního
+                            města Kaer Trolde, kde sídlí král Skellige. Ostrov je známý svými mohutnými horami, hustými
+                            lesy a starobylými hrady. Kaer Trolde je politickým a kulturním centrem Skellige.</p>
+                        <p> An Skellig: Menší ostrov ležící severovýchodně od Ard Skellig. Je známý svou drsnou krajinou
+                            a rybářskými vesnicemi. Obyvatelé An Skelligu jsou hrdí a nezávislí, stejně jako zbytek
+                            obyvatel Skellige.</p>
+                        <p>Faroe: Ostrov na jihovýchodě Skellige. Faroe je známý svými malými vesnicemi a zemědělstvím.
+                            Ostrov je méně hornatý než Ard Skellig a jeho obyvatelé se více zaměřují na farmaření a
+                            rybolov.</p>
+                        <p>Hindarsfjall: Tento ostrov je posvátným místem pro obyvatele Skellige, protože zde stojí
+                            chrám Freyi, bohyně plodnosti a lásky. Chrám a vesnice Larvik jsou hlavními body zájmu na
+                            ostrově. Hindarsfjall je také známý svými krásnými plážemi a klidnou krajinou.</p>
+                        <p>Spikeroog: Ostrov nacházející se na severozápadě Skellige. Spikeroog je známý svou divokou
+                            přírodou a nebezpečnými pobřežími. Obyvatelé tohoto ostrova jsou zvyklí na tvrdý život a
+                            často se vydávají na dlouhé námořní výpravy.</p>
+                        <p>Undvik: Ostrov, který byl opuštěn po sérii útoků obrů a příšer. Ostrov má drsnou a zničenou
+                            krajinu, a jeho obyvatelé se museli evakuovat na ostatní ostrovy Skellige. Undvik je nyní
+                            považován za nebezpečné místo plné hrozeb. </p>
+                        <p>Öland: Menší a méně významný ostrov v souostroví. Öland je známý svými malými komunitami a
+                            tradičními zvyky. Ostrov má krásné přírodní scenérie, které přitahují návštěvníky hledající
+                            klid a odpočinek.</p>
+                    </div>
+                    <div class="bestiary-container"><h2 style="color: yellow; text-align: center;">Bestiář</h2>
+                        <div class="category">
+                            <button class="category-toggle">Drakovití</button>
+                            <div class="category-content">
+                                <button class="beast-toggle" data-beast="drak1">Bazilišci</button>
+                                <button class="beast-toggle" data-beast="drak2">Kuroliškové</button>
+                                <button class="beast-toggle" data-beast="drak3">Vidlohoni</button>
+                                <button class="beast-toggle" data-beast="drak4">Wyverny</button>
+                            </div>
+                            <div class="beast-info"></div>
+                        </div>
+                        <div class="category">
+                            <button class="category-toggle">Elementálové</button>
+                            <div class="category-content">
+                                <button class="beast-toggle" data-beast="Elemental1">Chrliči</button>
+                                <button class="beast-toggle" data-beast="Elemental2">Džinové</button>
+                                <button class="beast-toggle" data-beast="Elemental3">Golemové</button>
+                                <button class="beast-toggle" data-beast="Elemental4">Ledoví elementálové</button>
+                                <button class="beast-toggle" data-beast="Elemental5">Ohniví elementálové</button>
+                                <button class="beast-toggle" data-beast="Elemental6">Psi divokého honu</button>
+                                <button class="beast-toggle" data-beast="Elemental7">Zemní elementálové</button>
+                            </div>
+                            <div class="beast-info"></div>
+
+                        </div>
+                        <div class="category">
+                            <button class="category-toggle">Hmyzovití</button>
+                            <div class="category-content">
+                                <button class="beast-toggle" data-beast="Hmyz1">Endriarčí dělnící</button>
+                                <button class="beast-toggle" data-beast="Hmyz2">Endriarčí trubci</button>
+                                <button class="beast-toggle" data-beast="Hmyz3">Endriarčí válečníci</button>
+                                <button class="beast-toggle" data-beast="Hmyz4">Jedovatí krabopavouci</button>
+                                <button class="beast-toggle" data-beast="Hmyz5">Krabopavouci</button>
+                                <button class="beast-toggle" data-beast="Hmyz6">Obrnění krabopavouci</button>
+                            </div>
+                            <div class="beast-info"></div>
+                        </div>
+                            <div class="category">
+                                <button class="category-toggle">Hybridi</button>
+                                <div class="category-content">
+                                    <button class="beast-toggle" data-beast="Hybrid1">Erynie</button>
+                                    <button class="beast-toggle" data-beast="Hybrid2">Gryfové</button>
+                                    <button class="beast-toggle" data-beast="Hybrid3">Harpyje</button>
+                                    <button class="beast-toggle" data-beast="Hybrid4">Sirény</button>
+                                    <button class="beast-toggle" data-beast="Hybrid5">Sukuby</button>
+                                </div>
+                                <div class="beast-info"></div>
+                            </div>
+
+                            <div class="category"> <button class="category-toggle">Nekrofágové</button>
+                                <div class="category-content"> 
+                                    <button class="beast-toggle" data-beast="Nekrofag1">Alghulové</button>
+                                    <button class="beast-toggle" data-beast="Nekrofag2">Ghulové</button> 
+                                    <button class="beast-toggle" data-beast="Nekrofag3">Hrobice</button>
+                                    <button class="beast-toggle" data-beast="Nekrofag4">Mlhavci</button>
+                                    <button class="beast-toggle" data-beast="Nekrofag5">Ohnilci</button> 
+                                    <button class="beast-toggle"data-beast="Nekrofag6">Topivci</button>
+                                    <button class="beast-toggle"data-beast="Nekrofag7">Vodnice</button> 
+                                        
+                                    </div>
+                                <div class="beast-info"></div>
+
+                            </div>
+                            <div class="category">
+                                <button class="category-toggle">Prokletí</button>
+                                <div class="category-content">
+                                    <button class="beast-toggle" data-beast="Proklety1">Berserkové</button>
+                                    <button class="beast-toggle" data-beast="Proklety2">Potracenky</button>
+                                    <button class="beast-toggle" data-beast="Proklety3">Vlkodlaci</button>
+                                   
+                                </div>
+                                <div class="beast-info"></div>
+                            </div>
+                            <div class="category">
+                                <button class="category-toggle">Šelmy</button>
+                                <div class="category-content">
+                                    <button class="beast-toggle" data-beast="selma1">Medvědi</button>
+                                    <button class="beast-toggle" data-beast="selma2">Psi</button>
+                                    <button class="beast-toggle" data-beast="selma3">Vlci</button>
+                                   
+                                </div>
+                                <div class="beast-info"></div>
+                            </div>
+
+                            <div class="category">
+                                <button class="category-toggle">Upíři</button>
+                                <div class="category-content">
+                                    <button class="beast-toggle" data-beast="Upír1">Ekimary</button>
+                                    <button class="beast-toggle" data-beast="Upír2">Katakani</button>
+                                    <button class="beast-toggle" data-beast="Upír3">Vyšší upíři</button>
+                                   
+                                </div>
+                                <div class="beast-info"></div>
+                            </div>
+                            <div class="category">
+                                <button class="category-toggle">Zlobrovití</button>
+                                <div class="category-content">
+                                    <button class="beast-toggle" data-beast="Obr1">Kyklopové</button>
+                                    <button class="beast-toggle" data-beast="Obr2">Ledový obr</button>
+                                    <button class="beast-toggle" data-beast="Obr3">Ledový troll</button>
+                                    <button class="beast-toggle" data-beast="Obr4">Nekkeři</button>
+                                    <button class="beast-toggle" data-beast="Obr5">Skalní troll</button>
+                                </div>
+                                <div class="beast-info"></div>
+                            </div>
+                            <div class="category">
+                                <button class="category-toggle">Přeludy</button>
+                                <div class="category-content">
+                                    <button class="beast-toggle" data-beast="Prelud1">Hymové</button>
+                                    <button class="beast-toggle" data-beast="Prelud2">Morové panny</button>
+                                    <button class="beast-toggle" data-beast="Prelud3">Polednice</button>
+                                    <button class="beast-toggle" data-beast="Prelud4">Přizraky</button>
+                                    <button class="beast-toggle" data-beast="Prelud5">Půlnočnice</button>
+                                </div>
+                                <div class="beast-info"></div>
+                            </div>
+                            <div class="category"> <button class="category-toggle">Relikty</button>
+                                <div class="category-content"> 
+                                    <button class="beast-toggle" data-beast="Relik1">Běsové</button>
+                                    <button class="beast-toggle" data-beast="Relik2">Bůžkové</button> 
+                                    <button class="beast-toggle" data-beast="Relik3">Čerti</button>
+                                    <button class="beast-toggle" data-beast="Relik4">Doppleři</button>
+                                    <button class="beast-toggle" data-beast="Relik5">Ježibaby</button> 
+                                    <button class="beast-toggle"data-beast="Relik6">Lešijové</button>
+                                    <button class="beast-toggle"data-beast="Relik7">Sylvani</button> 
+                     
+                                        
+                                    </div>
+                                <div class="beast-info"></div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+    </section>
+</body>
